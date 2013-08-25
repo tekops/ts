@@ -1,0 +1,3 @@
+masters:
+  - localhost:2001
+node_id: "angbad-minion"

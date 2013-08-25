@@ -1,0 +1,5 @@
+listen_addr: angbad:2001
+command_center_addr: angbad:2002
+node_id: "angbad"
+node_uuid: a94052fc-0bea-11e3-88fe-080027c0eda7
+id: 1

@@ -1,0 +1,20 @@
+listen_addr: :1234
+command_center_addr: :1235
+is_master: true
+is_minion: true
+#list of masters
+masters:
+  - localhost:1234
+node_id: "angbad"
+#list of monitors to send monitoring data
+monitors:
+  - localhost:1236
+  - localhost:2345
+mon_agent: true
+#sleep time in seconds
+mon_agent_sleep_time: 5
+#Is this a monitoring server?
+is_monitor: true
+monitor_listen_addr: :1236
+#should be unique generate uuid and put it here
+node_uuid: a94052fc-0bea-11e3-88fe-080027c0eda7
